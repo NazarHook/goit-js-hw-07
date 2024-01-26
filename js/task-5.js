@@ -1,5 +1,4 @@
 'use strict';
-  'use strict';
   const btn = document.querySelector('.change-color');
   const bg = document.querySelector('body');
   const span = document.querySelector('.color');
