@@ -24,9 +24,11 @@ function destroyBoxes() {
 }
 
 function clickHandler(event) {
- const amount = input.value;
- if (amount >= 1 && amount <= 100) {
-   createBoxes(amount);
+ const amount = parseInt(input.value);
+  if (amount >= 1 && amount <= 100) {
+   destroyBoxes();
+    createBoxes(amount);
+     input.value = '';
  } 
 }
 
